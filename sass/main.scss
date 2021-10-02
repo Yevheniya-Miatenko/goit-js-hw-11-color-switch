@@ -1,0 +1,26 @@
+.box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 50px;
+  background-color: brown;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 2px 3px 16px 3px #000000;
+  }
+}
+.btn.no-active {
+  background-color: darkgray;
+  color: rgb(121, 119, 119);
+}
+body {
+  transition: background-color 500ms ease;
+}
